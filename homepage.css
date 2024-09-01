@@ -57,7 +57,7 @@ h4 {
 }
 
 .inc-exp > div:first-of-type {
-    border-right: 1px solid #dedede;
+    border-right: 1px ;
     padding-right: 80px;
 }
 
@@ -168,15 +168,24 @@ input[type="text"], input[type="number"] {
     }
 
     .inc-exp {
-        flex-direction: column; /* Stack elements vertically on small screens */
+        flex-direction: row;
+       
+        margin:30px 0;
+         /* Stack elements vertically on small screens */
     }
 
     .inc-exp > div {
-        margin: 10px 0; /* Add margin for vertical stacking */
+        margin: 10px 0;
+        ;
+         /* Add margin for vertical stacking */
     }
 
     .inc-exp > div:first-of-type {
-        border-right: none; /* Remove border on mobile for better spacing */
+        
+        padding-right: 150px;
+        
+        
+         /* Remove border on mobile for better spacing */
     }
 
     .btn {
@@ -227,4 +236,3 @@ input[type="text"], input[type="number"] {
         font-size: 2.5em; /* Larger font size for desktops */
     }
 }
-
